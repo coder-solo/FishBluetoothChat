@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FishBluetoothChat</string>
+    <string name="title_main">choose a role</string>
+    
+    <!-- main activity -->
+    <string name="toServerBtn">Server</string>
+    <string name="toClientBtn">Client</string>
+    
+    <string name="searchButton">scan bluetooth</string>
+    <string name="sendButton">send</string>
+    <string name="boundPcButton">boundPc</string>
+    <string name="scanDevicesTitle">the scanned devices:</string>
+    <string name="bondDevicesTitle">the bonded devices:</string>
+
+    <string name="title_scaning">scaning</string>
+    <string name="title_select">select a device to connect</string>
+    <string name="title_chat">chat</string>
+    
+    <string name="no_scan">no device selected.</string>
+    <string name="editTextHint">input message</string>
+</resources>

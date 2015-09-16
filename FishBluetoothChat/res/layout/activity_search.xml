@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchButton" />
+
+    <Button
+        android:id="@+id/boundPcButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boundPcButton" />
+
+    <TextView 
+        android:id="@+id/scanDevicesTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scanDevicesTitle"
+        android:visibility="gone" />
+    
+    <ListView 
+        android:id="@+id/scanDevicesList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+    </ListView>
+
+    <TextView 
+        android:id="@+id/bondDevicesTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bondDevicesTitle"
+        android:visibility="gone" />
+    
+    <ListView 
+        android:id="@+id/bondDevicesList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+    </ListView>
+    
+</LinearLayout>
